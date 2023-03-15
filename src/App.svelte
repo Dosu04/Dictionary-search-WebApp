@@ -104,12 +104,12 @@ footer a {
   color: orangered;
   font-weight: bold;
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 footer a:hover {
 	color: rgb(255, 30, 0);
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 </style>
