@@ -115,7 +115,7 @@ footer a:hover {
 </style>
 
 <main>
-	<div class="header">DOSU Dictionary App</div>
+	<div class="header">DOSU Dictionary</div>
 	<div class="center">
 		<div class="form">
 			<div class="form-group">
