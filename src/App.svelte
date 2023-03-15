@@ -86,32 +86,37 @@
 	.padding {
 		padding: 1rem;
 	}
-	footer {
-  background-color: #f5f5f5;
-  padding: 20px;
-  text-align: center;
-  font-size: 14px;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-}
-
-footer p {
-  margin: 0;
-}
-
-footer a {
-  color: orangered;
-  font-weight: bold;
-  text-decoration: none;
-  font-size: 1rem;
-}
+	
 
 footer a:hover {
-	color: rgb(255, 30, 0);
   font-size: 1.5rem;
 }
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    color: black;
+    text-align: center;
+	font-size: 1.2rem;
+  }
 
+  footer a {	
+	color: rgb(255, 30, 0);
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  footer img {
+    vertical-align: middle;
+  }
+
+  @media only screen and (max-width: 600px) {
+    footer {
+      padding: 10px;
+    }
+  }
 </style>
 
 <main>
